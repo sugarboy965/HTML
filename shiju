@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>测试网页</title>
+		<style>
+#p{color:red}
+#h3,#h4{color:red}
+</style>
+	</head>
+	<body style="text-align: center" >
+		<h3 id="h3"><b>静夜思</b></h3>
+		<h4 id="h4">李白[唐]</h4>
+		<p id="p">床前明月光</p>
+		<p id="p">疑是地上霜</p>
+		<p id="p">举头望明月</p>
+		<p id="p">低头思故乡</p>
+	</body>
+</html>
