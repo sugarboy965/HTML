@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8" />
 		<title></title>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
 	</head>
-	<body text="#EE000F">
-		<h1>端午节</h1>
-		<h2>端午节</h2>
-		<p>今天是端午节，应该吃粽子</p>
+	<body>
+		<div id="app">
+			我喜欢的明星是{{message}}
+		</div>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			let v =new Vue({
+				el:'#app',
+				data:{
+					message:'刘德华'
+				}
+			})
+		</script>
 	</body>
 </html>
