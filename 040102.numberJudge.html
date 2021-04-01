@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="text" id="txt" placeholder="请输入一个数">
+		<br/>
+		<input type="button" value="判断" id="save">
+		<script>
+			document.getElementById('save').onclick=function(){
+				var a = document.getElementById('txt').value;
+				if(a%2==0){
+					alert("是偶数");
+				}else{
+					alert('是奇数');
+				}
+			}
+		</script>
+	</body>
+</html>
